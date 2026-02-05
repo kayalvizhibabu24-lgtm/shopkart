@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.image-section img {
+    width: 300px;
+}
+
+.details {
+    margin-left: 30px;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.rating {
+    color: green;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 28px;
+    color: #000;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.offers {
+        margin-top: 15px;
+}
+
+.offers li {
+    margin-bottom: 8px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart {
+    background: #ff9f00;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.buy {
+    background: #fb641b;
+    color: #fff;
+}
+
+.navbar {
+    background:linear-gradient(90deg,rgb(127, 59, 188),rgb(163, 48, 167));
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.navbar a{
+  text-decoration: none;
+    font-size: 20px;
+    text-align:center;
+    color: rgb(244, 246, 247);
+}
+
+
+
+
